@@ -67,7 +67,6 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          sudo docker pull ${{ secrets.DOCKER_USERNAME }}andrey003/api_yamdb:latest
           sudo docker-compose stop
           sudo docker-compose rm web
           rm .env
