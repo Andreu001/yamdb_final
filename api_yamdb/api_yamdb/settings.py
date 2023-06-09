@@ -13,7 +13,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['158.160.37.58', '127.0.0.1', 'localhost', 'web']
 
 
-# Application definition test 08/06/2023 сколько еще мучаться?????
+# Application definition test 08/06/2023 сколько еще мучаться111?????
 
 INSTALLED_APPS = [
     'django.contrib.admin',
